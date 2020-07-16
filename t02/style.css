@@ -1,0 +1,49 @@
+.head {
+    background-color: black;
+    color: white;
+}
+
+.soul {
+    background-color: orange;
+}
+
+.time {
+    background-color: green;
+}
+
+.space {
+    background-color: blue;
+}
+
+.mind {
+    background-color: yellow;
+}
+
+.reality {
+    background-color: red;
+}
+
+.power {
+    background-color: purple;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.info_stones,
+.power,
+.head,
+.soul,
+.time,
+.space,
+.mind,
+.reality {
+    text-align: center;
+}
