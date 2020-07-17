@@ -37,6 +37,14 @@ th, td {
     padding: 10px;
 }
 
+td {
+    border: 2px solid gainsboro;
+}
+
+table {
+    border-collapse: collapse;
+}
+
 .info_stones,
 .power,
 .head,
