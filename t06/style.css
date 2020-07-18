@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  background: #EC3323;
+  padding-top: 70px;
+  line-height: 0.66;
+}
+
+h1 > span {
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: Arial;
+}

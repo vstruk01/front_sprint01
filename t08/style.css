@@ -1,0 +1,50 @@
+.head {
+  /* display: table; */
+  /* box-sizing: border-box; */
+  background-image: linear-gradient(to right, #6e0000 , antiquewhite);
+  border-collapse: collapse;
+  border: 4px solid black;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(110, 0, 0, 0.4);
+  font-weight: bold;
+  color: #ffe369;
+}
+
+td, th {
+  border: 2px solid rgba(189, 195, 199, 0.05)
+}
+
+.left_row {
+  color: white;
+  font-weight: bold;
+}
+
+.row_dark {
+  color: white;
+  background-color: darkred;
+}
+
+.row {
+  color: midnightblue;
+  background-color: antiquewhite;
+}
+
+#link {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.row_dark,
+.row,
+.left_row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
