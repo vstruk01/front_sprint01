@@ -1,6 +1,4 @@
 .head {
-  /* display: table; */
-  /* box-sizing: border-box; */
   background-image: linear-gradient(to right, #6e0000 , antiquewhite);
   border-collapse: collapse;
   border: 4px solid black;
