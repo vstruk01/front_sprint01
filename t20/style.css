@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+}
+
+@keyframes run {
+  0%   {left:0px;}
+  50%  {left:calc(100% - 200px);}
+  100% {left:0px;}
+}
+
+#c {
+  position: absolute;
+  top: 100px;
+  border-radius: 100px;
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  animation: run 1s linear infinite;
+}
+
+#c:hover {
+  transition: background-color 2s;
+  background-color: red;
+}
