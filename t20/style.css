@@ -15,7 +15,7 @@
   background-color: green;
   width: 200px;
   height: 200px;
-  animation: run 1s linear infinite;
+  animation: run 5s linear infinite;
 }
 
 #c:hover {
